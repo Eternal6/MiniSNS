@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>支付宝</title>
+    <link rel=stylesheet href="style.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/Swiper/3.4.0/css/swiper.min.css">
+    <script src="http://cdn.bootcss.com/Swiper/3.4.0/js/swiper.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="header-top-left">
+                <span>
+                     <i class="fa fa-wpforms"></i>
+                     账单
+                </span>
+
+            </div>
+            <div class="header-top-right">
+                <span class="fa fa-user"></span>
+                <span class="fa fa-search"></span>
+                <span class="fa fa-plus"></span>
+            </div>
+        </div>
+        <div class="header-btm">
+            <div class="header-btm">
+                <span class="header-btm-b">
+                    <i class="fa fa-qrcode"></i>
+                    <p>扫一扫</p>
+                </span>
+                <span class="header-btm-b">
+                    <i class="fa fa-barcode"></i>
+                    <p>扫一扫</p>
+                </span>
+                <span class="header-btm-b">
+                    <i class="fa fa-tasks"></i>
+                    <p>扫一扫</p>
+                </span>
+                <span class="header-btm-b">
+                    <i class="fa fa-qrcode"></i>
+                    <p>扫一扫</p>
+                </span>
+            </div>
+        </div>
+    </header>
+    <section>
+    <ul class="body clearfix">
+        <li><span>
+                <i class="fa fa-jpy"></i>
+                <p>余额宝</p>
+            </span></li>
+        <li><span>
+                <i class="fa fa-usd"></i>
+                <p>红包</p>
+            </span></li>
+        <li><span>
+                <i class="fa fa-suitcase"></i>
+                <p>天猫</p>
+            </span></li>
+        <li><span>
+                <i class="fa fa-rub blue"></i>
+                <p>转账</p>
+            </span></li>
+        <li><span>
+                <i class="fa fa-building blue"></i>
+                <p>手机充值</p>
+            </span></li>
+        <li><span>
+                <i class="fa fa-certificate qs"></i>
+                <p>芝麻信用</p>
+            </span></li>
+        <li><span>
+                <i class="fa fa-car"></i>
+                <p>滴滴出行</p>
+            </span></li>
+        <li><span>
+                <i class="fa fa-desktop"></i>
+                <p>淘宝电影</p>
+            </span></li>
+        <li><span>
+                <i class="fa fa-hourglass blue"></i>
+                <p>蚂蚁聚宝</p>
+            </span></li>
+        <li><span>
+                <i class="fa fa-sign-language"></i>
+                <p>羊城通充值</p>
+            </span></li>
+        <li><span>
+                <i class="fa fa-futbol-o blue"></i>
+                <p>世界那么大</p>
+            </span></li>
+        <li><span>
+                <i class="fa fa-square-o hs "></i>
+                <p>信用卡还款</p>
+            </span></li>
+    </ul>
+   <div class="swiper-container">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="http://pic.qiantucdn.com/58pic/19/56/78/93C58PICIsk_1024.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="http://pic.qiantucdn.com/58pic/19/74/28/57108e9bcad1c_1024.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="http://pic.qiantucdn.com/58pic/13/61/46/18u58PICxnT_1024.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+   </div>
+    </section>
+    <footer>
+        <ul class="body clearfix">
+            <li><span>
+                    <i class="fa fa-hand-o-down hs"></i>
+                    <p>收卡</p>
+                </span></li>
+            <li><span>
+                    <i class="fa fa-eur blue"></i>
+                    <p>汇率换算</p>
+                </span></li>
+            <li><span>
+                    <i class="fa fa-font"></i>
+                    <p>彩票</p>
+                </span></li>
+            <li><span>
+                    <i class="fa fa-arrow-down blue"></i>
+                    <p>红包快手</p>
+                </span></li>
+            <li><span>
+                    <i class="fa fa-paper-plane-o blue"></i>
+                    <p>支付宝</p>
+                </span></li>
+            <li><span>
+                    <i class="fa fa-glass ths"></i>
+                    <p>口碑</p>
+                </span></li>
+            <li><span>
+                    <i class="fa fa-child ths"></i>
+                    <p>朋友</p>
+                </span></li>
+            <li><span>
+                    <i class="fa fa-jpy ths"></i>
+                    <p>我的</p>
+                </span></li>
+        </ul>
+    </footer>
+
+</body>
+<script>
+      var mySwiper = new Swiper ('.swiper-container', {
+        loop: true,
+
+        // 如果需要分页器
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        autoplay: 1000
+      })
+      </script>
+</html>
